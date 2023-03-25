@@ -1,10 +1,9 @@
 /**
- * @name piOS
+ * @name ApertureOS
  * @author Saltssaumure
  * @authorLink https://github.com/Saltssaumure
- * @description SUPERHOT piOS inspired theme. With customisable colours, glow intensity, support for both cosy and compact mode.
+ * @description Aperture-themed terminal OS style.
  * @version 9
- * @invite uy8nKQVatp
  * @source https://github.com/Saltssaumure/pios-discord-theme
  * @donate https://ko-fi.com/saltssaumure
 */
@@ -19,11 +18,8 @@
 \_______)|/     \|(_______/)_(   \_______)\_______)|/     \|(_______)|/     \|(_______)|/   \__/(_______/
                                          Licensed under GPL-3.0!
 
-Discord: Saltssaumure#7557
 GitHub: https://github.com/Saltssaumure/pios-discord-theme
 
-Join the SUPERHOT Official server: https://discord.gg/9eAwJF8
-Join Salt's Discord Themes server: https://discord.gg/uy8nKQVatp
 */
 
 @import url("https://saltssaumure.github.io/pios-discord-theme/pios.min.css");
@@ -31,8 +27,8 @@ Join Salt's Discord Themes server: https://discord.gg/uy8nKQVatp
 :root {
     --glow-intensity: 1;            /* Intensity of text glow. Range: 0-1, default: 1 (100%) */
     --compact-message-spacing: 1;   /* Space between messages in compact mode. Range: 0-∞, default: 1 (100%) */
-    --accent-color: 0;              /* Colour accent hue value as in HSL. Range: 0-360, default: 0 (red) */
-    --title-text: "piOS v2.1.01p";  /* Text replacement for Discord logo. Values: any text in "quotations" */
+    --accent-color: 33;              /* Colour accent hue value as in HSL. Range: 0-360, default: 0 (red) */
+    --title-text: "ApertureOS";  /* Text replacement for Discord logo. Values: any text in "quotations" */
     --crt-overlay: block;           /* CRT monitor overlay. Values: block (on) or none (off) */
     /* The following effects are performance-heavy. */
     --crt-scanline: block;          /* CRT animated scanline. Values: block (on) or none (off) */
